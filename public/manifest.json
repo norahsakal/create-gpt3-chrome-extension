@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "GPT-3 ask",
+    "description": "Desc",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open the popup"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*/"
+    ]
+}
